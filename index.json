@@ -1,7 +1,16 @@
 {
-  "name": "My Tachiyomi Repo",
-  "description": "My first Tachiyomi repository",
-  "manifestVersion": 1,
-  "icon": "https://raw.githubusercontent.com/stamadk2001-oss/tachiyomi-repo/main/S.png",
-  "extensions": []
+  "meta": {
+    "name": "Prochan Repo",
+    "website": "https://github.com/stamadk2001-oss/tachiyomi-repo"
+  },
+  "extensions": [
+    {
+      "name": "Prochan",
+      "pkg": "eu.kanade.tachiyomi.extension.ar.prochansource",
+      "apk": "repo/ar/prochan/prochan-v1.0.0.apk",
+      "lang": "ar",
+      "code": 1,
+      "version": "1.0.0"
+    }
+  ]
 }
