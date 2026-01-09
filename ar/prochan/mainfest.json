@@ -1,8 +1,10 @@
-
 {
   "name": "Prochan",
   "pkg": "ar.prochan",
   "lang": "ar",
   "version": "1.0.0",
-  "code": 1
+  "code": 1,
+  "source": "online",
+  "icon": "icon.png",
+  "nsfw": false
 }
